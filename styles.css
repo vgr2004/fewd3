@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;                                  
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#searchBar {
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchButton {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: black;
+  color:white;
+}
+
+#mealSuggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.meal {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.meal:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  font-size:1.2rem;
+  transition: ease;
+  background-color: black;
+  color:white;
+}
+
+.meal img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.meal h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.meal-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meal-details h2 {
+  margin-top: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.meal-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.meal-details h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.meal-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meal-details li {
+  margin-bottom: 5px;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color:white
+}
+header:hover{
+  font-size : 1.5rem;
+}
